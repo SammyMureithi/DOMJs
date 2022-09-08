@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <label for="message">Message:</label>
+    <input type="text" class="input" id="message" name="message">
+    <button>Submit</button>
+    <p id="result"></p>
+
+    <span>Status:</span>
+    <input type="radio" id="pending" name="status"> 
+    <label for="pending">Pending</label>
+    <input type="radio" id="resolved" name="status"> 
+    <label for="resolved">Resolved</label>
+    <input type="radio" id="rejected" name="status">
+    <label for="rejected">Rejected</label> 
+    <p id="result2"></p>
+
+    <select id="lang">
+        <option value="">Select a language</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="TypeScript">TypeScript</option>
+        <option value="PHP">PHP</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+    </select>
+    <p id="result1"></p>
+</body>
+<script src="index.js"></script>
+</html>
